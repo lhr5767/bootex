@@ -2,6 +2,7 @@ package com.example.apilec.domain;
 
 import com.fasterxml.jackson.annotation.JsonFilter;
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import io.swagger.annotations.ApiModel;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -14,6 +15,7 @@ import java.util.Date;
 @AllArgsConstructor
 @NoArgsConstructor
 @JsonFilter("UserInfo")
+@ApiModel(description = "사용자 상세 정보를 위한 도메인 객체")
 public class User {
     private Integer id;
 
