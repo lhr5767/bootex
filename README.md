@@ -1,5 +1,5 @@
 
-<bootinflearn>
+-bootinflearn-
 spring boot + jpa + H2 (security, swagger,hateos 살짝)
 
 화면 개발 x  
