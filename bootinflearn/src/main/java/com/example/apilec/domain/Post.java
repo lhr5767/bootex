@@ -12,6 +12,7 @@ import javax.persistence.*;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
+@Table(name = "post")
 public class Post {
 
     @Id
@@ -20,7 +21,7 @@ public class Post {
 
     private String description;
 
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne(fetch = FetchType.LAZY) //many~ 항상 지연로딩 사용할것
     @JsonIgnore
     private User user;
 }
