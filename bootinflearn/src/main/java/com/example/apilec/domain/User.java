@@ -29,7 +29,7 @@ public class User {
     @Past
     private Date joinDate;
 
-    @JsonIgnore //데이터 제어
+    @JsonIgnore // 외부 노출 x
     private String password;
 
     private String ssn;
@@ -37,7 +37,11 @@ public class User {
     @OneToMany(mappedBy = "user")
     private List<Post> posts;
 
+<<<<<<< Updated upstream
     public User(int id, String name, Date joinDate, String password, String ssn) {
+=======
+    public User(Integer id,  String name, Date joinDate, String password, String ssn) {
+>>>>>>> Stashed changes
         this.id = id;
         this.name = name;
         this.joinDate = joinDate;

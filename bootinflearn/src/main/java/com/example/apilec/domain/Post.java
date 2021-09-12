@@ -16,12 +16,17 @@ import javax.persistence.*;
 public class Post {
 
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
     private String description;
 
+<<<<<<< Updated upstream
     @ManyToOne(fetch = FetchType.LAZY) //many~ 항상 지연로딩 사용할것
     @JsonIgnore
+=======
+    @ManyToOne(fetch = FetchType.LAZY) //Many~ 항상 지연로딩 사용할것
+    @JsonIgnore //외부로 공개x
+>>>>>>> Stashed changes
     private User user;
 }

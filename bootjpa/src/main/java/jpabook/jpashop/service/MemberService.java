@@ -11,7 +11,6 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.List;
 
 @Service
-@Transactional(readOnly = true) //읽기전용 성능 향상
 @RequiredArgsConstructor //final 붙은 필드만 가지고 생성자 만듬
 public class MemberService {
 
@@ -37,10 +36,12 @@ public class MemberService {
     }
 
     //회원 전체 조회
+    @Transactional(readOnly = true)
     public List<Member> findMembers() {
         return memberRepository.findAll();
     }
     //회원 한명 조회
+    @Transactional(readOnly = true)
     public Member findOne(Long memberId) {
         return memberRepository.findOne(memberId);
     }

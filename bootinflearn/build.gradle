@@ -31,7 +31,11 @@ dependencies {
     implementation group: 'io.springfox', name: 'springfox-swagger-ui', version: '2.9.2'
     implementation group: 'org.springframework.boot', name: 'spring-boot-starter-actuator', version: '2.5.4'
     implementation group: 'org.springframework.boot', name: 'spring-boot-starter-security', version: '2.5.4'
+<<<<<<< Updated upstream
     implementation group: 'com.h2database', name: 'h2', version: '1.4.199'
+=======
+    runtimeOnly 'com.h2database:h2'
+>>>>>>> Stashed changes
 }
 
 test {
