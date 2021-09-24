@@ -19,3 +19,9 @@ html,css,js 리마인드용
 spring boot + jpa + mariaDB + thymeleaf
 
 CRUD , 페이징처리 , 검색(querydsl 학습용)  
+
+-minip2-
+
+spring boot + jpa + mysql +thymeleaf
+
+연관관계 학습용 (1:N , N:1)
