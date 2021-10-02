@@ -26,3 +26,9 @@ CRUD , 페이징처리 , 검색(querydsl 학습용)
 spring boot + jpa + mysql +thymeleaf
 
 연관관계 학습용 (1:N , N:1)
+
+-miniSecurity-
+
+spring boot + jpa + spring security(Oauth2) + mysql
+
+spring security,소셜로그인 학습용
