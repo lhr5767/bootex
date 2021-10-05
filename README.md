@@ -10,6 +10,7 @@ spring boot + jpa + H2
 -bootjpa-
 
 spring boot + jpa + H2 + thymeleaf (JpaRepository 사용 x)
+상품 주문,등록 / 회원정보 / 주문정보 
 
 -vsweb-
 
@@ -26,6 +27,12 @@ CRUD , 페이징처리 , 검색(querydsl 학습용)
 spring boot + jpa + mysql +thymeleaf
 
 연관관계 학습용 (1:N , N:1)
+
+-minip3-
+
+spring boot + jpa + mysql + thymeleaf
+
+연관관계 학습용(M:N) , 아직 
 
 -miniSecurity-
 
