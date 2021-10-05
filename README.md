@@ -32,7 +32,7 @@ spring boot + jpa + mysql +thymeleaf
 
 spring boot + jpa + mysql + thymeleaf
 
-연관관계 학습용(M:N) , 아직 
+연관관계 학습용(M:N) , 아직 미완성
 
 -miniSecurity-
 
