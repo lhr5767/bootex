@@ -1,11 +1,5 @@
 
--bootinflearn-
 
-spring boot + jpa + H2 
-
-간단한 rest api (swagger,hateos 학습용)
-화면 개발 x  
-테스트는 postman 사용
 
 -bootjpa-
 
